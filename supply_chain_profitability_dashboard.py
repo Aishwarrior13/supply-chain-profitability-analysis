@@ -23,8 +23,8 @@ st.set_page_config(
 
 @st.cache_data
 def load_data():
-data = pd.read_csv("APL_Logistics_Cleaned-ZIP.zip", compression="zip")
-return data
+    data = pd.read_csv("APL_Logistics_Cleaned-ZIP.zip", compression="zip")
+    return data
 
 df = load_data()
 
